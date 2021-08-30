@@ -1,0 +1,37 @@
+{
+	"short_name": "StopWatch",
+	"name": "StopWatch application",
+	"description": "Application for Beh do vrchu Výprachtice",
+	"icons": [
+	  {
+		"src": "/logo-70.png",
+		"type": "image/png",
+		"sizes": "70x70"
+	  },
+	  {
+		"src": "/logo-96.png",
+		"type": "image/png",
+		"sizes": "96x96"
+	  },
+	  {
+		"src": "/logo-150.png",
+		"type": "image/png",
+		"sizes": "150x150"
+	  },
+	  {
+		"src": "/logo-192.png",
+		"type": "image/png",
+		"sizes": "192x192"
+	  },
+	  {
+		"src": "/logo-310.png",
+		"type": "image/png",
+		"sizes": "310x310"
+	  }
+	],
+	"start_url": "/",
+	"background_color": "#FFFFFF",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#000000"
+  }
