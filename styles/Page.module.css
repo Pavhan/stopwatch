@@ -13,6 +13,23 @@
   align-items: center;
 }
 
+.menu {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+
+
+.menu li {
+	padding: 0 10px;
+}
+
+
+
+.menu li a {
+	color: #5450e3;
+}
 
 .title,
 .description {

@@ -1,26 +1,25 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Page.module.css'
 
-export default function Offline() {
+export default function Custom404() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Offline</title>
-        <meta name="description" content="Offline" />
+        <title>Strána neexistuje</title>
+        <meta name="description" content="Strána neexistuje" />
         <link rel="icon" href="/favicon.ico" />
 		<link rel='manifest' href='/manifest.json' />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Offline !!!
+		Strána neexistuje
         </h1>
 
         <p className={styles.description}>
-		Nejste připojeni k internetu
+         Sorry, jako!
         </p>
-		</main>
+      </main>
     </div>
   )
 }

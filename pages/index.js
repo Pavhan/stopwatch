@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+import styles from '../styles/Page.module.css'
 
 export default function Home() {
   return (
@@ -13,6 +13,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+	  <ul className={styles.menu}>
+			  <li><Link href="/">Domů</Link></li>
+			  <li><Link href="/about">O nás</Link></li>
+			</ul>
         <h1 className={styles.title}>
           Stopwatch
         </h1>
